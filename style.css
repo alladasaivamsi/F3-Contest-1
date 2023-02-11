@@ -41,14 +41,14 @@
 
 #shop {
     display: grid;
-    grid-template-columns: repeat(4, 220px);
+    grid-template-columns: repeat(4, 222px);
     gap: 20px;
     justify-content: space-around;
     margin: 40px;
 }
 
 #data {
-    border: 1px solid black;
+    border: 2px solid black;
 }
 
 #title , #price , #stock{
@@ -63,7 +63,7 @@
 }
 
 img {
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
     cursor: pointer;
 }
 
@@ -71,20 +71,20 @@ img {
 /* Media Queries */
 @media (max-width: 1050px){
     #shop{
-        grid-template-columns: repeat(3, 220px);
+        grid-template-columns: repeat(3, 223px);
     }
 }
 
 @media (max-width: 800px){
     #shop{
-        grid-template-columns: repeat(2, 220px);
+        grid-template-columns: repeat(2, 223px);
         justify-content: center;
     }
 }
 
 @media (max-width: 510px){
     #shop{
-        grid-template-columns: repeat(1, 220px);
+        grid-template-columns: repeat(1, 223px);
         justify-content: center;
     }
 }
