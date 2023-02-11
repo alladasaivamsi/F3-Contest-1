@@ -20,7 +20,7 @@ fetch("https://dummyjson.com/products")
         myArr.map((products) =>
         {
             productData.innerHTML += `<div id="data"> 
-                                            <img src=${products.images[0]} alt="images" height="220px" width="217px">
+                                            <img src=${products.images[0]} alt="images" height="220px" width="218px">
                                             <div id="content-data"> 
                                                 <p><strong>Title: </strong><span id="title">${products.title}</span></p>
                                                 <p><strong>Brand: </strong><span id="brand">${products.brand}</span></p>
