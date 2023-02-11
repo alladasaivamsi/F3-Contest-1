@@ -41,7 +41,7 @@
 
 #shop {
     display: grid;
-    grid-template-columns: repeat(4, 222px);
+    grid-template-columns: repeat(4, 223px);
     gap: 20px;
     justify-content: space-around;
     margin: 40px;
